@@ -52,7 +52,7 @@ docker stop nomducontainer
 ```
 
 infos : 
-
+```
 tshark -r /root/Documents/USTC-TFC2016-master/Malware/Zeus.pcap -Y data.data -T json > test.txt
-
-`jq '.[] | ._source.layers.data | {"data.data_raw"}' zeus.json > zeusDataRaw.json
+jq '[.[] | ._source.layers.data | {"data.data_raw"}]' zeus.json > zeusDataRaw.json
+```
