@@ -27,7 +27,7 @@ ENTRYPOINT ["/usr/bin/tini", "--"]
 
 #définition de la commande qui est lancée à la création du container
 
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token='ceciestuntoken'"]
 
 
 

@@ -13,5 +13,3 @@ jupyter-console
 jupyter-core
 h5py
 netml
-pyshark
-pprint
