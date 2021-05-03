@@ -1,2 +1,5 @@
 *.json
 2.Malwares/*
+!2.Malwares/tfrecords
+!2.Malwares/test
+!2.Malwares/validation
